@@ -1,0 +1,133 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: (51, 51, 51, 1);
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .online {
+            position: fixed;
+            bottom: 150px;
+            right: 10px;
+            width: 60px;
+            z-index: 999;
+            color: #999;
+        }
+        
+        .online a {
+            color: #666;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+        
+        .online a svg {
+            vertical-align: middle;
+        }
+        
+        .online a:hover {
+            text-decoration: none;
+        }
+        
+        .online dl {
+            margin-bottom: 1px;
+            background: rgba(46, 125, 50, 0.6);
+            padding: 10px 5px;
+            margin-bottom: 1px;
+            position: relative;
+        }
+        
+        .online dl dd {
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        
+        .online dl dd.icon_top {
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            cursor: pointer;
+            margin-inline-start: 0;
+            height: 25px;
+        }
+        
+        .online dl dd i {
+            font-size: 25px;
+        }
+        
+        .online dl:hover {
+            background: #1781bd;
+        }
+        
+        .online dl dt {
+            position: absolute;
+            top: 0px;
+            right: 60px;
+            background: #fff;
+            border: 1px solid #ccc;
+            z-index: 9999;
+            display: none;
+            padding: 10px 15px;
+            font-weight: normal;
+        }
+        
+        .online dl dt h3 {
+            display: block;
+            font-size: 16px;
+            color: #666;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 8px;
+        }
+        
+        .online dl dt h3 i {
+            margin-right: 5px;
+        }
+        
+        .online dl dt h3 span {
+            float: right;
+            cursor: pointer;
+        }
+        
+        .online dl dt input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 15px;
+            height: 40px;
+            line-height: 40px;
+            padding: 3px 5px;
+            width: 100%;
+        }
+        
+        .online dl dt button {
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 18px;
+            height: 40px;
+            line-height: 40px;
+            background: #28a7e1;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .online dl:hover {
+            background: #7fc482;
+        }
+        
+        .bg-info {
+            background-color: #2da233 !important;
+        }

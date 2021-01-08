@@ -1,0 +1,54 @@
+.wrap{
+            width: 750px;
+            margin: 0px auto;
+ 
+        }
+        .content ul li img:hover{
+            transform: scale(1.2);/*当鼠标移动到图片上时实现放大功能*/
+        }
+        .content ul li{
+        	position: relative;
+        	left: -174px;
+			top: -855px;
+            height: 98px;
+            overflow: hidden;
+            /*border-bottom: 1px solid lavender;*/
+            background: rgba(204, 204, 204, 0.5);
+            list-style-type: none;
+            transition-duration: 0.5s;
+            margin: 10px 10px -8px 0;
+ 
+        }
+        .content ul li:hover{
+            background-color: #DBD0A7;
+            opacity:0.8;
+            transition-duration: 0.5s;
+        }
+        .content .left{
+            overflow: hidden;
+            transition-duration: 0.5s;
+            width: 140px;
+            height:101px;
+            float: left;
+            margin-right:10px;
+        }
+        .content .right{
+            width:586px ;
+            float: left;
+        }
+        .right_top{
+        	color: black;
+            height:27px;
+        }
+        .right_bottom{
+            margin-top:50px;
+        }
+        .right_bottom_left span{
+            color: #C0C0C0;
+            font-size: 10px;
+        }
+        .normal{
+            color: black;
+            font-size: 14px;
+            float: left;
+        }

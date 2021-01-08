@@ -1,0 +1,36 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .animate {
+            padding-left: 10px;
+            margin-top: 32px;
+            font-size: 18px;
+            color: #000;
+            display: inline-block;
+            white-space: nowrap;
+            animation: 25s wordsLoop linear infinite normal;
+        }
+ 
+        @keyframes wordsLoop {
+            0% {
+                transform: translateX(2000px);
+                -webkit-transform: translateX(2000px);
+            }
+            100% {
+                transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+            }
+        }
+ 
+        @-webkit-keyframes wordsLoop {
+            0% {
+                transform: translateX(2000px);
+                -webkit-transform: translateX(2000px);
+            }
+            100% {
+                transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+            }
+        }

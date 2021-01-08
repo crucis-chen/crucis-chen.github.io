@@ -1,0 +1,129 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "宋体";
+	color: #5D478B;
+}
+.body_{
+      
+             background-color: black;
+            background-image:url("img/background.jpg");
+         }
+			header{
+				width: 500px;
+				height: 80px;
+				font-size: 70px;
+				font-weight: bold;
+				margin:1px auto;
+				color: #00FFFF;
+			}
+			nav{
+				width: 1500px;
+				height: 45px;
+				background-color: rgba(255,255,0,0.5);
+				font-size: 32px;
+				padding-left: 20px;
+				padding-top: 5px;
+			}
+			
+            div{
+				width: 2000px;
+				height: 520px;
+				float: left;
+			}
+			div1{
+				width: 2000px;
+				height: 520px;
+				float: left;
+			}
+			div2{
+				width: 2000px;
+				height: 520px;
+				float: right;
+			}
+
+			aside{
+				width: 260px;
+				height: 900px;
+				background-color: rgba(255,255,0,0.4);
+				border-radius: 10px;
+				margin:20px 20px;
+				float: left;
+				font-size: 25px;
+				padding: 35px;
+			}
+			section{
+				width: 1125px;
+				height: 500px;
+				margin:20px 20px;
+				float: left;
+			}
+			
+			
+			
+			article1{
+				width: 1125px;
+				height: 150px;
+				border:2.5px solid 	#FF4500;
+				border-radius: 10px;
+				float: left;
+			}
+			article2{
+				width: 1125px;
+				height: 300px;
+				border:2.5px solid 	#FF4500;
+				border-radius: 10px;
+				margin-top: 10px;
+				float: left;
+			}
+			article3{
+				width: 1125px;
+				height: 200px;
+				border:2.5px solid 	#FF4500;
+				border-radius: 10px;
+				margin-top: 10px;
+				float: left;
+			}
+			article4{
+				width: 1125px;
+				height: 250px;
+				border:2.5px solid 	#FF4500;
+				border-radius: 10px;
+				margin-top: 10px;
+				float: left;
+			}
+			
+			
+			
+			
+
+			a1{
+				width: 1100px;
+				height: 60px;
+				border-bottom: 2.5px dotted #DC143C;
+				float: left;
+				margin: 0px 10px;
+				font-size: 40px;
+				font-family: "Serif";
+			}
+			a2{
+				width: 1100px;
+				height: 100px;
+				float: left;
+				margin: 20px 10px 0px 10px;
+				font-size: 20px;
+			}
+
+
+			
+			ul{
+				list-style-type: none;
+			}
+			
+			li{
+				display: inline-block;
+			}
+			li:hover{
+				background-color: #FF3E96;
+				border-radius: 1px;
+			}
