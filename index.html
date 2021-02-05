@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>合成大西瓜</title>
+  <title>合成大仓鼠</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -59,7 +59,7 @@
         // }
         if (ua.match(/MicroMessenger/i) == "micromessenger") {   
             // if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-                location.href="https://mp.weixin.qq.com/s/m0U0L-vnD0Gu8aPJ2vcPoA";    
+                location.href="";    
             // }                      
         }
     </script>
@@ -133,11 +133,11 @@
 //        console.log("window.navigator.language",window.navigator.language);
 
         if( window.navigator.language=="zh-CN" ||window.navigator.language=="zh-cn"){
-            document.title = "小游戏：合成大西瓜";
+            document.title = "小游戏：合成大仓鼠";
         }else  if(window.navigator.language == "zh-TW" ){
-            document.title = "小遊戲：合成大西瓜";
+            document.title = "小遊戲：合成大仓鼠";
         }else  if(window.navigator.language == "zh-HK" ){
-            document.title = "小遊戲：合成大西瓜";
+            document.title = "小遊戲：合成大仓鼠";
         }else  if(window.navigator.language == "ko-KR"){
             document.title = "작은 놀이：큰 수박 을 합성 하 다";
         }else  if(window.navigator.language == "ja-JP"){
@@ -185,7 +185,7 @@
         if (!loadintT) {
         	return;
         }
-        loadintT.innerHTML = 'loading......' + parseInt(tempSeconds) + '%';
+        loadintT.innerHTML = '仓鼠加载中......' + parseInt(tempSeconds) + '%';
 
         switch (tempSeconds) {
           case 20:
@@ -218,7 +218,7 @@
         if (tempSeconds > 100) {
           clearInterval(timer);
           tempSeconds = 100
-          loadintT.innerHTML = 'loading......' + parseInt(tempSeconds) + '%';
+          loadintT.innerHTML = '仓鼠加载中......' + parseInt(tempSeconds) + '%';
         }
       }, t * 1000);
     }
